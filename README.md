@@ -334,9 +334,8 @@ NS_ENUM(NSInteger, AFKClassNameTableSize) {
 
 ## Тип перечисление
 
-When using `enum`s, it is recommended to use the new fixed underlying type specification because it has stronger type checking and code completion. The SDK now includes a macro to facilitate and encourage use of fixed underlying types — `NS_ENUM()`
-<!--При использовании `enum`ов рекомендуется использовать нововведеный фиксированный спецификатор типа т к он имеет более строгую проверку типов и лучшее автозаполнение кода. Теперь SDK включает в себя макрос, облегчающий и улучшающий для использования фиксированного идентификатора типов - `NS_ENUM()`
--->
+При объявлении перечеслений (`enum`s) используйте макрос `NS_ENUM()`.
+Преимущество использования макроса это лучшая проверка типов компилятором и лучшее автодополнение кода.
 **Хорошо:**
 
 ```objc
